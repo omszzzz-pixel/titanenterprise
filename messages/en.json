@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "Titan-Enterprise — Bridging Financial and Technology",
+    "description": "Titan-Enterprise designs, deploys, and licenses systematic trading infrastructure for institutions and professionals."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Firm",
+    "capabilities": "Capabilities",
+    "trading": "Trading & Operations",
+    "education": "Education",
+    "platform": "Platform",
+    "insights": "Insights",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "SEOUL · SYSTEMATIC CAPITAL · FINANCIAL TECHNOLOGY",
+    "titleA": "Bridging Financial",
+    "titleB": "and Technology.",
+    "subtitle": "Titan-Enterprise designs, operates, and licenses systematic trading infrastructure — connecting financial intuition with engineered precision across global markets.",
+    "ctaPrimary": "Explore Capabilities",
+    "ctaSecondary": "About the Firm"
+  },
+  "metrics": {
+    "heading": "The Firm at a Glance",
+    "subheading": "Operational footprint, in numbers.",
+    "items": [
+      { "value": "12", "label": "Production strategies", "note": "Across equities, futures, and digital assets" },
+      { "value": "<50ms", "label": "Decision-to-execution latency", "note": "Median, co-located venues" },
+      { "value": "24/5", "label": "Continuous market coverage", "note": "Asia · EU · US session handoff" },
+      { "value": "5+", "label": "Asset classes covered", "note": "Spot, futures, options, FX, crypto" }
+    ]
+  },
+  "capabilities": {
+    "eyebrow": "WHAT WE DO",
+    "heading": "Three pillars. One discipline.",
+    "subheading": "Systematic trading is not one product — it is a stack. We work across all three layers of that stack.",
+    "trading": {
+      "label": "01 — Trading & Operations",
+      "title": "Proprietary systems engineered to extract structural alpha across global markets.",
+      "body": "From signal research to execution, our trading infrastructure runs on a vertically integrated stack — risk-managed, capacity-aware, and built for capital efficiency.",
+      "cta": "Trading & Operations"
+    },
+    "education": {
+      "label": "02 — Education",
+      "title": "Practitioner-grade training in systematic strategy design.",
+      "body": "A structured program combining quantitative methodology, infrastructure literacy, and hands-on backtesting frameworks — for professionals moving from discretion to systematic execution.",
+      "cta": "Education"
+    },
+    "platform": {
+      "label": "03 — Platform",
+      "title": "Financial infrastructure as a service.",
+      "body": "We license and white-label modular components — execution engines, risk dashboards, signal pipelines — for funds and brokerages building their own systematic capability.",
+      "cta": "Platform"
+    }
+  },
+  "insightsTeaser": {
+    "eyebrow": "INSIGHTS",
+    "heading": "Research Notes & Perspectives",
+    "viewAll": "View all insights",
+    "items": [
+      { "tag": "Research Note", "readTime": "8 min read", "title": "Capacity decay in mid-frequency strategies", "date": "Apr 2026" },
+      { "tag": "Market Commentary", "readTime": "5 min read", "title": "On the limits of regime detection", "date": "Mar 2026" },
+      { "tag": "Perspective", "readTime": "6 min read", "title": "Why infrastructure outlasts alpha", "date": "Feb 2026" }
+    ]
+  },
+  "cta": {
+    "eyebrow": "PARTNERSHIPS",
+    "heading": "Considering systematic infrastructure for your firm?",
+    "body": "Reach out to our partnerships team to discuss licensing, white-label deployment, or strategic collaboration.",
+    "button": "Get in Touch"
+  },
+  "ticker": {
+    "items": [
+      "DISCIPLINE",
+      "PRECISION",
+      "RESEARCH",
+      "INFRASTRUCTURE",
+      "CAPITAL EFFICIENCY",
+      "RISK-FIRST",
+      "SYSTEMATIC"
+    ]
+  },
+  "about": {
+    "eyebrow": "THE FIRM",
+    "title": "A trading firm built like an engineering firm.",
+    "lead": "Titan-Enterprise was founded on a simple conviction: durable returns in modern markets are produced by systems, not by intuition alone. Every component of our operation — from research methodology to execution venues — is designed, measured, and improved as engineering output.",
+    "sections": [
+      {
+        "heading": "Philosophy",
+        "body": "Markets do not reward conviction. They reward the marginal cost of being wrong. We construct systems that are wrong cheaply, and right with discipline. Capacity, drawdown, and operational fragility are first-class concerns, not afterthoughts."
+      },
+      {
+        "heading": "Approach",
+        "body": "We separate research from production. Strategies graduate through staged deployment — paper, capacity-limited live, scaled live — gated by predefined criteria. Nothing is shipped because someone believed in it."
+      },
+      {
+        "heading": "People",
+        "body": "Our team blends quantitative researchers, low-latency engineers, and seasoned market practitioners. We hire for first-principles thinking and for the willingness to be precisely wrong."
+      }
+    ]
+  },
+  "tradingPage": {
+    "eyebrow": "01 — TRADING & OPERATIONS",
+    "title": "Systematic capital, engineered.",
+    "lead": "Our proprietary trading desk operates a portfolio of systematic strategies across equities, futures, FX, and digital asset markets. Each strategy is research-backed, capacity-managed, and continuously measured against drawdown and slippage budgets.",
+    "pillars": [
+      { "title": "Research", "body": "Hypothesis-driven signal development with rigorous out-of-sample, capacity, and turnover analysis. Failed ideas are documented, not buried." },
+      { "title": "Execution", "body": "Latency-aware execution stack with venue-level routing, market impact modeling, and adaptive participation. Co-located where it matters." },
+      { "title": "Risk", "body": "Pre-trade and intraday risk gates. Position-, strategy-, and book-level limits enforced in code, not in policy documents." },
+      { "title": "Operations", "body": "24/5 monitoring, automated incident response, and post-trade reconciliation. Boring on purpose." }
+    ]
+  },
+  "educationPage": {
+    "eyebrow": "02 — EDUCATION",
+    "title": "From discretion to system.",
+    "lead": "A practitioner-grade program for professionals transitioning into systematic execution. Designed and taught by working traders and researchers — not lecturers.",
+    "modules": [
+      { "no": "M1", "title": "Foundations of Systematic Thinking", "body": "Hypothesis formulation, statistical reasoning, the role of prior in strategy design, and the cost of overfitting." },
+      { "no": "M2", "title": "Backtesting Infrastructure", "body": "Event-driven simulators, look-ahead bias, fee modeling, slippage models, walk-forward and combinatorial cross-validation." },
+      { "no": "M3", "title": "Execution & Microstructure", "body": "Order types, queue dynamics, market impact, adverse selection, venue selection, and the economics of latency." },
+      { "no": "M4", "title": "Risk & Portfolio Construction", "body": "Volatility targeting, factor decomposition, correlation regime shifts, and capital allocation across uncorrelated edges." },
+      { "no": "M5", "title": "Production & Operations", "body": "From notebook to deployment, monitoring, alerting, kill switches, and the operational discipline of running live capital." }
+    ]
+  },
+  "platformPage": {
+    "eyebrow": "03 — PLATFORM",
+    "title": "Infrastructure for the next generation of systematic firms.",
+    "lead": "We license modular components of our internal stack to funds, brokerages, and prop firms building their own systematic capability — without rebuilding what already works.",
+    "modules": [
+      { "title": "Execution Engine", "body": "Multi-venue, multi-asset execution with adaptive routing, child order generation, and full audit trail. SDK in Python, TypeScript, Rust." },
+      { "title": "Signal Pipeline", "body": "Streaming feature computation, model serving, and decision logging. Versioned, replayable, observable." },
+      { "title": "Risk Dashboard", "body": "Real-time position, exposure, and PnL views across strategies and venues. Configurable pre-trade and intraday gates." },
+      { "title": "Research Workbench", "body": "Hosted backtesting environment with capacity-aware simulation and integrated dataset management." }
+    ]
+  },
+  "insightsPage": {
+    "eyebrow": "INSIGHTS",
+    "title": "Research notes, market commentary, and perspectives.",
+    "lead": "Long-form thinking from the desk and the lab. We publish what we believe, when we believe it.",
+    "comingSoon": "Full archive coming soon."
+  },
+  "contactPage": {
+    "eyebrow": "CONTACT",
+    "title": "Let's talk.",
+    "lead": "Whether you're considering a licensing partnership, an institutional allocation, or our education program — reach out and we'll route you to the right team.",
+    "fields": {
+      "general": "General Inquiry",
+      "partnerships": "Partnerships & Licensing",
+      "education": "Education Program",
+      "careers": "Careers"
+    },
+    "address": {
+      "line1": "Titan-Enterprise",
+      "line2": "Suite 2901, S-Trenue, 37 Gukjegeumyung-ro 2-gil",
+      "line3": "Yeongdeungpo-gu, Seoul, Republic of Korea"
+    },
+    "email": "titan@titan-enterprise.kr",
+    "phone": "+82 2 6951 1028"
+  },
+  "business": {
+    "title": "Business Information",
+    "company": "Company",
+    "companyValue": "Titan-Enterprise",
+    "representative": "Representative",
+    "representativeValue": "Min-sik Oh",
+    "bizRegNo": "Business Reg. No.",
+    "eCommerceRegNo": "Mail-Order Reg. No.",
+    "eCommerceRegNoValue": "2022-Goyang Ilsan West-0385",
+    "privacyOfficer": "Privacy Officer"
+  },
+  "footer": {
+    "tagline": "Bridging Financial and Technology.",
+    "navTitle": "Navigate",
+    "contactTitle": "Contact",
+    "legalTitle": "Legal",
+    "rights": "All rights reserved.",
+    "disclaimer": "The information presented on this site is for informational purposes only and does not constitute investment advice, an offer to sell, or a solicitation of an offer to buy any securities or financial instruments. Past performance is not indicative of future results.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "disclosures": "Disclosures"
+    }
+  }
+}
