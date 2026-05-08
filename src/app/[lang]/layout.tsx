@@ -140,9 +140,9 @@ export async function generateMetadata(props: LayoutProps<"/[lang]">): Promise<M
       images: ["/logo/fulllogo.png"],
     },
     verification: {
-      google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+      google: "mMDOEIKm5w83qUZjFOwnZvbZbqoB5ZhuBBIpc6X2od4",
       other: {
-        "naver-site-verification": process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION ?? "",
+        "naver-site-verification": "3ad3f68152805ea10a73a09ecfe0c36f084b2d77",
       },
     },
     formatDetection: {
