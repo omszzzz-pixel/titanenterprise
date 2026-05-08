@@ -1,9 +1,17 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "../dictionaries";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Section";
+
+export const metadata: Metadata = {
+  title: "Capabilities · 사업영역",
+  description:
+    "타이탄엔터프라이즈의 세 가지 사업영역 — 시스템 트레이딩 자체 개발·운용, 시스템 트레이딩 교육, 그리고 금융 플랫폼. Trading & Operations · Education · Platform.",
+  alternates: { canonical: "/en/capabilities" },
+};
 
 export default async function CapabilitiesHub(props: PageProps<"/[lang]/capabilities">) {
   const { lang } = await props.params;

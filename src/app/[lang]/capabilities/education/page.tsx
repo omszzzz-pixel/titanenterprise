@@ -1,9 +1,17 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "../../dictionaries";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Section";
 import { Cta } from "@/components/sections/Cta";
+
+export const metadata: Metadata = {
+  title: "Education · 시스템 트레이딩 교육",
+  description:
+    "재량 매매에서 시스템 매매로 전환하는 전문가를 위한 실무자급 시스템 트레이딩 교육 프로그램. 정량 방법론·백테스팅·체결·리스크·운영의 5개 모듈 커리큘럼.",
+  alternates: { canonical: "/en/capabilities/education" },
+};
 
 export default async function EducationPage(props: PageProps<"/[lang]/capabilities/education">) {
   const { lang } = await props.params;

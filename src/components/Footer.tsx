@@ -32,6 +32,9 @@ export function Footer({
             <p className="mt-6 max-w-md font-display text-2xl leading-snug text-foreground">
               {dict.footer.tagline}
             </p>
+            <p className="mt-3 max-w-md text-[12px] leading-relaxed text-subtle">
+              타이탄엔터프라이즈 · 시스템 트레이딩 · 금융 플랫폼
+            </p>
           </div>
 
           <div className="md:col-span-3">
@@ -90,7 +93,7 @@ export function Footer({
 
         <div className="py-6">
           <div className="text-[11px] tracking-[0.12em] uppercase text-subtle">
-            © {year} Titan-Enterprise. {dict.footer.rights}
+            © {year} Titan-Enterprise · 타이탄엔터프라이즈. {dict.footer.rights}
           </div>
         </div>
       </Container>

@@ -1,9 +1,17 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "../../dictionaries";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Section";
 import { Cta } from "@/components/sections/Cta";
+
+export const metadata: Metadata = {
+  title: "Trading & Operations · 트레이딩·운용",
+  description:
+    "타이탄엔터프라이즈 자체 트레이딩 데스크. 주식·선물·외환·디지털 자산에 걸친 시스템 전략 포트폴리오. 리서치·체결·리스크·운영 전 단계의 수직 통합 인프라.",
+  alternates: { canonical: "/en/capabilities/trading" },
+};
 
 export default async function TradingPage(props: PageProps<"/[lang]/capabilities/trading">) {
   const { lang } = await props.params;

@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "../dictionaries";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Section";
+
+export const metadata: Metadata = {
+  title: "Firm · 회사소개",
+  description:
+    "타이탄엔터프라이즈(Titan-Enterprise)는 엔지니어링 회사처럼 운영되는 시스템 트레이딩 회사입니다. 철학·접근·팀 소개. A trading firm built like an engineering firm.",
+  alternates: { canonical: "/en/about" },
+};
 
 export default async function AboutPage(props: PageProps<"/[lang]/about">) {
   const { lang } = await props.params;

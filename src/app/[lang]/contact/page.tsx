@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "../dictionaries";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Section";
+
+export const metadata: Metadata = {
+  title: "Contact · 문의",
+  description:
+    "타이탄엔터프라이즈 문의 — 라이선싱·기관 자금 배분·교육 프로그램·채용. titan@titan-enterprise.kr · 02-6951-1028 · 서울 영등포구 여의도동.",
+  alternates: { canonical: "/en/contact" },
+};
 
 export default async function ContactPage(props: PageProps<"/[lang]/contact">) {
   const { lang } = await props.params;

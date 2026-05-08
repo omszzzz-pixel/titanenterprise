@@ -1,9 +1,17 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "../../dictionaries";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Section";
 import { Cta } from "@/components/sections/Cta";
+
+export const metadata: Metadata = {
+  title: "Platform · 금융 플랫폼",
+  description:
+    "펀드·증권사·자기자본 트레이딩 회사에 라이선싱·화이트라벨로 공급하는 금융 인프라. 체결 엔진·시그널 파이프라인·리스크 대시보드·리서치 워크벤치.",
+  alternates: { canonical: "/en/capabilities/platform" },
+};
 
 export default async function PlatformPage(props: PageProps<"/[lang]/capabilities/platform">) {
   const { lang } = await props.params;
